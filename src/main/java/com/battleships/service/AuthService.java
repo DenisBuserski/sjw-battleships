@@ -3,7 +3,6 @@ package com.battleships.service;
 import com.battleships.model.User;
 import com.battleships.model.dto.UserRegistrationDTO;
 import com.battleships.repository.UserRepository;
-import jakarta.persistence.Column;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
