@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: battleships
+
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/battleships?useSSL=false&createDatabaseIfNotExist=true
+    username: root
+    password: denis
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: create-drop
+    defer-datasource-initialization: true
+    show-sql: true
+
